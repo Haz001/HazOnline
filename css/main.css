@@ -1,0 +1,196 @@
+/*prep stuff*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: monospace;
+
+}
+
+/*---<Nav>---*/
+/*animations prep*/
+.main{
+	margin-left: 5px;
+	margin-right: 5px;
+	overflow-x: hidden;
+	transition: margin-left 0.3s;
+	-webkit- transition: margin-left 0.3s;
+	-moz- transition: margin-left 0.3s;
+	-o- transition: margin-left 0.3s;
+}
+.mt{
+	margin-left: 20.5%;
+	transition: margin-left 0.3s;
+	-webkit- transition: margin-left 0.3s;
+	-moz- transition: margin-left 0.3s;
+	-o- transition: margin-left 0.3s;
+}
+.sb {
+	overflow-x: hidden;
+	width: 0px;
+	position: fixed;
+	overflow-x: hidden;
+	display: block;
+	background: #606060;
+	height: 200%;
+	color: white;
+	transition: width 0.3s;
+	-webkit- transition: width 0.3s;
+	-o- transition: width 0.3s;
+	-moz- transition: width 0.3s;
+}
+.sbv {
+    width: 20%;
+	transition: width 0.3s;
+	-webkit- transition: width 0.3s;
+	-o- transition: width 0.3s;
+	-moz- transition: width 0.3s;
+}
+.tm{
+	display-color: block;
+	background: url("../svg/banner.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75px;
+	
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	width: 100%;
+
+	transition: width 0.3s;
+	-webkit- transition: width 0.3s;
+	-o- transition: width 0.3s;
+	-moz- transition: width 0.3s;
+
+}
+.tmv{
+	
+	width: 80%;
+	transition: width 0.3s;
+	-webkit- transition: width 0.3s;
+	-o- transition: width 0.3s;
+	-moz- transition: width 0.3s;
+}
+/*---<Nav>---*/
+.sb a{
+	display: block;
+	background: #404040;
+	cursor: pointer;
+	color:white;
+	border: 2px solid #808080;
+	padding: 8px;
+	display: block;
+	font-size: 20px;
+	
+}
+.sb a:hover{
+	background: #808080;
+	padding: 20px;
+	
+}
+.sb .active{
+	background: red;
+}
+.sb .active:hover{
+	background: red;
+	padding: 20px;
+}
+/*---<header area>---*/
+
+.sbb{
+	display: block;
+	background-color: red;
+	
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	
+	height: 50px;
+	width: 50px;
+	border: 2px solid red;
+    border-radius: 12px;
+	position: absolute;
+	
+	left: 0px;
+	margin: 10px;
+	transition: left 0.3s;
+}
+.t{
+ 	height: 75px;
+ 	
+	float: left;
+    font-family: "Century Gothic", serif;
+	font-style: normal;
+	font-size: 50px;
+	
+	color: red;
+	left: 60px;
+	position: absolute;
+	
+	margin: 10px;
+	transition: left 0.3s;
+}
+.ts{
+	height: 75px;
+
+}
+.tm nav{
+	float: left;
+    font-family: "Century Gothic", serif;
+    font-size: 10px;
+    font-style: normal;
+	position: absolute;
+	left: 72.75px;
+	bottom: 0px;
+	color: white;
+}
+.tm nav a{
+	padding: 10px;
+	color: white;
+}
+/* --<Body>-- */
+
+.navB{
+
+	background-color: #606060;
+	padding: 0px;
+	
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+	float: left;
+
+}
+
+.navB a{
+	display: block;
+	background-color: #606060;
+	opacity: 0.9;
+	position: relative;
+	width: 100%;
+	bottom: 30px;
+	height: 40px;
+	left: 0px;
+	right: 0px;
+	color: #aaaaaa;
+	font-size: 25px;
+}
+.navB:hover a{
+	opacity: 1;
+	color: white;
+}
+form{
+	background: #aaaaaa;
+	display: block;
+	position: fixed;
+	right: 0px;
+	width: 300px;
+	top: 0px;
+	height: 140px;
+	overflow: hidden;
+}
+form button{
+	background: red;
+	color: white;
+}
