@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HazOnline>Main</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script>
+function sboc(){
+	$("#sidebar").toggleClass("sbv");
+	$("#tm").toggleClass("tmv")
+	$("#main").toggleClass("mt");
+}
+</script>
+</head>
+<body>
+<div id="sidebar" class="sb">
+    <a href="http://hazonline.co.uk/index.html" class="active">Home</a>
+    <a href="http://hazonline.co.uk/games/index.html">Games</a>
+    <a href="http://hazonline.co.uk/vs/index.html">Programs</a>
+	<a href="http://hazonline.co.uk/av/index.html">AntiVirus</a>
+	<a href="http://hazonline.co.uk/blog/index.php">Blog</a>
+	<a href="http://hazonline.co.uk/art/index.html">Art</a>
+	<a href="http://hazonline.co.uk/pages/about.html">About</a>
+	<a href="http://hazonline.co.uk/pages/cu.html">Contact Us</a>
+	Page info:<br/><i>Launch: 03/10/2017</i><br /><i id="lu">Last Updated:</i>
+	<script type="text/javascript">
+	document.getElementById("lu").innerHTML ="Last Update: " +document.lastModified
+	</script>
+</div>
+<div class="ts">
+<div id="tm" class="tm">
+<div id="sidebarbtn" class="sbb" onclick="sboc()" >&#9776;</div>
+<h1 id="title" class="t">HazOnline.co.uk</h1>
+</div>
+</div>
+<div id="main" class="main">
+
+<h2>Wellcome to HazOnline.co.uk</h2>
+
+This is a website being build by oen person, making content avalible <b>for free for <s>now</s> ever</b>.<br/>
+I make do games, software and some other stuff but thats about it.
+<h3>Things I might make</h3>
+Some I have allready
+<ul>
+<li><a href="games/index.html">Games</a></li>
+<li><a href="av/index.html">AntiVirus</a></li>
+<li><a href="vs/index.html">Programs</a></li>
+<li><a>Videos</a></li>
+<li><a>Cooking (recipies)</a></li>
+<li><a href="blog/index.php">Blog</a></li>
+<li><a>Reviews</a></li>
+<li><a>Apps</a></li>
+<li><a>Tutorials</a></li>
+
+</ul>
+<h3>Cool things I did:</h3>
+<div class="navB" >
+	<img  src="bmp/amv2.png" align="middle"/>
+	<a href="av/index.html">AntiMini V2 -></a>
+</div>
+<div class="navB" >
+	<img  src="bmp/wd2.png" align="middle"/>
+	<a href="vs/index.html">WebDev2 -></a>
+</div>
+<div class="navB" >
+	<img  src="bmp/tc.png" align="middle"/>
+	<a href="games/index.html">The Cube -></a>
+</div>
+<div class="navB" >
+	<img  src="bmp/fs.png" align="middle"/>
+	<a href="vs/index.html">File Safe -></a>
+</div>
+
+</div>
+
+</body>
+</html>
