@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HazOnline>Main</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script>
+function sboc(){
+  $("#sidebar").toggleClass("sbv");
+  $("#tm").toggleClass("tmv")
+  $("#main").toggleClass("mt");
+}
+
+</script>
+</head>
+<body>
+<div id="sidebar" class="sb">
+    <a href="index.html" class="active">Home</a>
+    <a href="games/index.html">Games</a>
+    <a href="vs/index.html">Programs</a>
+  <a href="av/index.html">AntiVirus</a>
+  <a href="blog/index.php">Blog</a>
+  <a href="art/index.html">Art</a>
+  <a href="pages/about.html">About</a>
+  <a href="pages/cu.html">Contact Us</a>
+
+  Page info:<br/><i>Launch: 03/10/2017</i><br /><i id="lu">Last Updated:</i>
+  <script type="text/javascript">
+  document.getElementById("lu").innerHTML ="Last Update: " +document.lastModified;
+
+  </script>
+  
+</div>
+<div class="ts">
+  <div id="tm" class="tm">
+    <div id="sidebarbtn" class="sbb" onclick="sboc()" >&#9776;</div>
+
+    <h1 id="title" class="t">Where is it? WHERE!?!</h1>
+  </div>
+</div>
+
+<div id="main" class="main">
+
+<h1>We searched high and low but it is lost</h1>
+So it looks like the page that you are looking for at the moment is ether is missing or has been removed. <a href="hazonline.co.uk/pages/cu.html">Contact Us</a>
+
+
+
+
+</body>
+</html>
