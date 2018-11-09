@@ -231,11 +231,11 @@ form button{
 	font-size: 32px;
 		
 	color: white;
-	background-color: #366a96;
-	border-bottom: 6px solid #366a96;
-	border-top: 6px solid #366a96;
-	border-left: 6px solid #366a96;
-	border-right: 6px solid #366a96;
+	background-color: #808080;
+	border-bottom: 6px solid #808080;
+	border-top: 6px solid #808080;
+	border-left: 6px solid #808080;
+	border-right: 6px solid #808080;
 	border-radius: 5px;
 	-webkit-transition: 0.5s;
 }
@@ -245,11 +245,11 @@ form button{
 	font-size: 32px;
 	
 	color: white;
-	background-color: #3679b0;
-	border-bottom: 6px solid #ffc836;
-	border-top: 6px solid #3679b0;
-	border-left: 6px solid #3679b0;
-	border-right: 6px solid #3679b0;
+	background-color: #808080;
+	border-bottom: 6px solid red;
+	border-top: 6px solid #808080;
+	border-left: 6px solid #808080;
+	border-right: 6px solid #808080;
 	border-radius: 5px;
 	-webkit-transition: 0.25s;
 }
