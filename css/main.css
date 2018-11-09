@@ -231,11 +231,11 @@ form button{
 	font-size: 32px;
 		
 	color: white;
-	background-color: #808080;
-	border-bottom: 6px solid #808080;
-	border-top: 6px solid #808080;
-	border-left: 6px solid #808080;
-	border-right: 6px solid #808080;
+	background-color: #606060;
+	border-bottom: 6px solid #606060;
+	border-top: 6px solid #606060;
+	border-left: 6px solid #606060;
+	border-right: 6px solid #606060;
 	border-radius: 5px;
 	-webkit-transition: 0.5s;
 }
@@ -245,11 +245,11 @@ form button{
 	font-size: 32px;
 	
 	color: white;
-	background-color: #808080;
+	background-color: #404040;
 	border-bottom: 6px solid red;
-	border-top: 6px solid #808080;
-	border-left: 6px solid #808080;
-	border-right: 6px solid #808080;
+	border-top: 6px solid #404040;
+	border-left: 6px solid #404040;
+	border-right: 6px solid #404040;
 	border-radius: 5px;
 	-webkit-transition: 0.25s;
 }
