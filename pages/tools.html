@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HazOnline>Main</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<style type="text/css">
+	.sect{
+		height: 225px;
+	}
+
+</style>
+<script>
+function sboc(){
+	$("#sidebar").toggleClass("sbv");
+	$("#tm").toggleClass("tmv")
+	$("#main").toggleClass("mt");
+}
+</script>
+</head>
+<body>
+<div id="sidebar" class="sb">
+    <a href="http://hazonline.co.uk/index.html" >Home</a>
+    <a href="http://hazonline.co.uk/pages/python.html">Python Projects</a>
+
+	<a href="http://hazonline.co.uk/pages/about.html">About</a>
+	<a href="http://hazonline.co.uk/pages/cu.html" class="active">Contact Us</a>
+	Page info:<br/><i>Launch: 12/04/2018</i><br /><i id="lu">Last Updated:</i>
+	<script type="text/javascript">
+	document.getElementById("lu").innerHTML ="Last Update: " +document.lastModified;
+	</script>
+</div>
+<div class="ts">
+<div id="tm" class="tm">
+<div id="sidebarbtn" class="sbb" onclick="sboc()" >&#9776;</div>
+<h1 id="title" class="t">HazOnline.co.uk</h1>
+</div>
+</div>
+
+<div id="main" class="main">
+	<h1>Contact Us</h1>
+	<h2>How?</h2>
+	Join this discord @ <br/>
+	<a href="https://discord.gg/kCtSn5e">discord.gg/kCtSn5e</a>
+	or try github <a href="github.com/Haz001"></a>
+	<h2>How long will it take you to respond</h2>
+
+	We will respond as fast as we can but as we are a team of one and that one person is in full education then it may take a long time.
+	It may take upto 25 buisness days.
+</div>
+</body>
+</html>
