@@ -204,10 +204,11 @@ body {
     height: 20px;
   overflow: hidden;
 	color: #fff;
+
 }
 .navA a{
 	display: block;
-	opacity: 0.9;
+	opacity: 0.5;
 	position: relative;
 	float: left;
 	bottom: 35px;
@@ -215,10 +216,11 @@ body {
 	left: 0px;
 	right: 0px;
 	color: #aaaaaa;
+  -webkit-transition: 0.75s;
 }
 .navA:hover a{
 	opacity: 1;
-
+  -webkit-transition: 0.75s;
 }
 
 form{
