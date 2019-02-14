@@ -208,11 +208,12 @@ body {
     height: 20px;
   overflow: hidden;
 	color: #fff;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 15px;
+
 
 }
 .navA a{
+
 	display: block;
 	opacity: 0.5;
 	position: relative;
@@ -222,11 +223,11 @@ body {
 	left: 0px;
 	right: 0px;
 	color: #aaaaaa;
-  -webkit-transition: 0.75s;
+  -webkit-transition: 0.25s;
 }
 .navA:hover a{
 	opacity: 1;
-  -webkit-transition: 0.75s;
+  -webkit-transition: 0.25s;
 }
 .back-btn {
   display: block;
@@ -264,9 +265,10 @@ form button{
   border-bottom: 6px solid #366a96;
 	border-radius: 5px;
   padding: 0px;
-	-webkit-transition: 0.5s;
+	-webkit-transition: 0.25s;
 }
 .py:hover{
+
 	display: box;
 	text-decoration:underline;
 	font-size: 16px;
