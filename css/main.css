@@ -159,7 +159,7 @@ body {
 	background-color: #606060;
 	padding: 0px;
 
-	height: 250px;
+	height: 200px;
 	width: 300px;
 
 	float: left;
@@ -179,8 +179,8 @@ body {
 	position: relative;
 
 	width: 100%;
-	bottom: 0px;
-	height: auto;
+	bottom: 30px;
+	height: 30px;;
 	left: 0px;
 	right: 0px;
 	color: #aaaaaa;
@@ -210,6 +210,7 @@ body {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
 }
 .navA h1{
   padding-left: 15px;
@@ -235,6 +236,7 @@ body {
 	right: 0px;
 	color: #aaaaaa;
   -webkit-transition: 0.25s;
+
 
 }
 .navA:hover a{
