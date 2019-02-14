@@ -163,7 +163,8 @@ body {
 	width: 300px;
 	overflow: hidden;
 	float: left;
-
+  padding-left: 5px;
+  border-radius: 5px;
 }
 
 .navB a{
@@ -194,7 +195,8 @@ body {
 	width: 300px;
 	overflow: hidden;
 	float: left;
-  border-radius: 25px;
+  padding-left: 5px;
+  border-radius: 5px;
 
 }
 .navA h1{
@@ -226,7 +228,8 @@ body {
 .back-btn {
   display: block;
   background-color: red;
-  border-radius: 25px;
+  border-radius: 10px;
+  padding: 10px;
 
 }
 
