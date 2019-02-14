@@ -1,3 +1,18 @@
-code{
-  background: #aaaa;
+.code {
+  display: block;
+  word-wrap: normal;
+  font-family: monospace;
+  font-size: 95%;
+  overflow: auto;
+  background-color: #aaa;
+  width: 25%
+
+
+}
+.code > li{
+  padding-left: 1%;
+  background-color: #ddd;
+}
+.tut{
+    font-size: 150%;
 }

@@ -194,6 +194,7 @@ body {
 	width: 300px;
 	overflow: hidden;
 	float: left;
+  border-radius: 25px;
 
 }
 .navA h1{
@@ -222,7 +223,12 @@ body {
 	opacity: 1;
   -webkit-transition: 0.75s;
 }
+.back-btn {
+  display: block;
+  background-color: red;
+  border-radius: 25px;
 
+}
 
 
 form{
