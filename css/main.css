@@ -159,7 +159,7 @@ body {
 	background-color: #606060;
 	padding: 0px;
 
-	height: 200px;
+	height: 250px;
 	width: 300px;
 
 	float: left;
@@ -179,19 +179,25 @@ body {
 	position: relative;
 
 	width: 100%;
-	bottom: 35px;
-	height: 35px;
+	bottom: 0px;
+	height: auto;
 	left: 0px;
 	right: 0px;
 	color: #aaaaaa;
 	font-size: 25px;
   border-radius: 15px;
   width: auto;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 
 }
 .navB:hover a{
 	opacity: 1;
 	color: white;
+}
+.navB > img{
+  border-radius: 15px;
 }
 
 .navA{
