@@ -82,12 +82,12 @@ body {
 	padding: 8px;
 	display: block;
 	font-size: 20px;
-
+  transition: padding 0.3s;
 }
 .sb a:hover{
 	background: #808080;
 	padding: 20px;
-
+  transition: padding 0.3s;
 }
 .sb .active{
 	background: red;

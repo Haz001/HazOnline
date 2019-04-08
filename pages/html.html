@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HazOnline>Python Projects</title>
+
+</head>
+<body>
+	<div id="Navigation" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<script>
+		function sboc(){
+		  $("#sidebar").toggleClass("sbv");
+		  $("#tm").toggleClass("tmv")
+		  $("#main").toggleClass("mt");
+		}
+		</script>
+		<div id="sidebar" class="sb">
+		  <a href="http://hazonline.co.uk/index.html" >Home</a>
+		  <a class="active" href="http://hazonline.co.uk/pages/python.html">Python</a>
+		  <a href="http://hazonline.co.uk/pages/about.html">About</a>
+		  <a href="http://hazonline.co.uk/pages/cu.html">Contact Us</a>
+		  Page info:<br/><i>Launch: 21/10/2018</i><br /><i id="lu">Last Updated:</i>
+		  <script type="text/javascript">
+		  document.getElementById("lu").innerHTML ="Last Update: " +document.lastModified;
+		  </script>
+		</div>
+		<div class="ts">
+		  <div id="tm" class="tm">
+		  <div id="sidebarbtn" class="sbb" onclick="sboc()" >&#9776;</div>
+		  <h1 id="title" class="t">HazOnline.co.uk</h1>
+		</div></div>
+	</div>
+
+
+<main id="main" class="main">
+
+	<a href="https://w3.org"><img alt="Image missing"  height="64px" src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg"/></a>
+	<h1>HTML Projects</h1>
+	<div class="navA" >
+		<h1>HazOnline.co.uk (this web page)</h1>
+		<img alt="Image missing" src="https://hazonline.co.uk/img/008.png" height="200" width="300"/>
+		<a class="py" href="https://haz001.github.io/">Home</a>
+		<a class="py" href="https://github.com/Haz001/Haz001.github.io">Github</a>
+	</div>
+
+
+
+</main>
+</body>
+</html>
