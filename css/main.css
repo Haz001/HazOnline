@@ -138,7 +138,7 @@ body {
 	height: 75px;
 
 }
-.tm nav{
+/*.tm nav{
 	float: left;
     font-family: "Century Gothic", serif;
     font-size: 10px;
@@ -151,7 +151,7 @@ body {
 .tm nav a{
 	padding: 10px;
 	color: white;
-}
+}*/
 /* --<Body>-- */
 
 .navB{
@@ -169,6 +169,7 @@ body {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  transition: transform 0.25s;
 }
 
 .navB > a{
@@ -176,9 +177,9 @@ body {
   padding-left: 15px;
 	display: block;
 	background-color: #606060;
-	opacity: 0.9;
+	opacity: 0.2;
 	position: relative;
-
+  transition: opacity 0.25s;
 	width: 100%;
 	bottom: 33px;
 	height: 30px;;
@@ -196,9 +197,14 @@ body {
 .navB:hover > a{
 	opacity: 1;
 	color: white;
+  transition: opacity 0.25s;
 }
 .navB > img{
   border-radius: 15px;
+}
+.navB:hover{
+  transform: scale(1.12);
+  transition: transform 0.25s;
 }
 
 .navA{
@@ -236,14 +242,15 @@ body {
 	left: 0px;
 	right: 0px;
 	color: #aaaaaa;
-  -webkit-transition: 0.25s;
+  transition: opacity 0.25s;
 
 
 }
 .navA:hover a{
 	opacity: 1;
-  -webkit-transition: 0.25s;
+  transition: opacity 0.25s;
 }
+
 .back-btn {
   display: block;
   background-color: red;
