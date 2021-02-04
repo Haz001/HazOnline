@@ -1,0 +1,238 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+tr{
+  height: 100vh;
+  width: 100vw;
+  padding: 50vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+table{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.title{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  padding: 20px;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t1{
+  /* from: https://uigradients.com/ */
+  background: #333333;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.t2{
+  /* from: https://uigradients.com/ */
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.t3{
+  /* from: https://uigradients.com/ */
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.t4{
+  /* from: https://uigradients.com/ */
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+  font-size: 72pt;
+  color: white;
+}
+h2{
+  font-size: 32pt;
+  color: white;
+}
+a{
+  font-size: 24pt;
+  color: white;
+  display: Text;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+}
+@keyframes a1{
+    0%{
+      transform: translateY(100vh) rotate(0deg) scale(0.1);
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+      transform: translateY(50vh) rotate(180deg) scale(2);
+    }
+    100%{
+      transform: translateY(0vh) rotate(360deg) scale(0.1);
+      opacity: 0;
+    }
+}
+@keyframes a2{
+    0%{
+      transform: translateY(200vh) rotate(0deg) scale(0.1);
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+      transform: translateY(150vh) rotate(180deg) scale(2);
+    }
+    100%{
+      transform: translateY(100vh) rotate(360deg) scale(0.1);
+      opacity: 0;
+    }
+}
+@keyframes a3{
+    0%{
+      transform: translateY(300vh) rotate(0deg) scale(0.1);
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+      transform: translateY(250vh) rotate(180deg) scale(2);
+    }
+    100%{
+      transform: translateY(200vh) rotate(360deg) scale(0.1);
+      opacity: 0;
+    }
+}
+@keyframes a4{
+    0%{
+      transform: translateY(400vh) rotate(0deg);
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.5;
+      transform: translateY(350vh) rotate(180deg) scale(2);
+    }
+    100%{
+      transform: translateY(300vh) rotate(360deg);
+      opacity: 0;
+    }
+}
+.close{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.more{
+  position: absolute;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  width: 90vw;
+  left: 5vw;
+  height: 90vh;
+  top:5vh;
+  z-index: 10;
+  transition: backdrop-filter 0.5s;
+}
+.more:hover{
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.animate{
+  position: absolute;
+  width: 100%;
+  height: 400vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+.a1{
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: black;
+
+  background: url(../svg/WhoAmI.svg);
+  background-size: contain;
+  animation: a1 10s linear infinite;
+  z-index: 0;
+  border-radius: 40%;
+}
+
+.a3{
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 600px;
+  height: 800px;
+  background: black;
+
+  background: url(../svg/img.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: a3 10s linear infinite;
+  z-index: 0;
+  border-radius: 0%;
+}
+.a4{
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 600px;
+  height: 800px;
+  background: black;
+
+  background: url(../svg/book.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: a4 10s linear infinite;
+  z-index: 0;
+  border-radius: 0%;
+}
+.a2{
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  color: black;
+  background-size: contain;
+  animation: a2 10s linear infinite;
+  z-index: 0;
+  border-radius: 40%;
+}

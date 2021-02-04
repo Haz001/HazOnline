@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HazOnline>Main</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://hazonline.co.uk/css/main.css">
+<script>
+function sboc(){
+  $("#sidebar").toggleClass("sbv");
+  $("#tm").toggleClass("tmv")
+  $("#main").toggleClass("mt");
+}
+
+</script>
+</head>
+<body>
+<div id="sidebar" class="sb">
+<a href="http://hazonline.co.uk/index.html">Home</a>
+    <a href="http://hazonline.co.uk/pages/python.html">Python Projects</a>
+	<a href="http://hazonline.co.uk/pages/about.html">About</a>
+	<a href="http://hazonline.co.uk/pages/cu.html">Contact Us</a>
+
+  Page info:<br/><i>Launch: 03/10/2017</i><br /><i id="lu">Last Updated:</i>
+  <script type="text/javascript">
+  document.getElementById("lu").innerHTML ="Last Update: " +document.lastModified;
+
+  </script>
+
+</div>
+<div class="ts">
+  <div id="tm" class="tm">
+    <div id="sidebarbtn" class="sbb" onclick="sboc()" >&#9776;</div>
+
+    <h1 id="title" class="t">404</h1>
+  </div>
+</div>
+
+<div id="main" class="main">
+<h2>So your lost I guess?</h2>
+So you have either went to a old link, entered in a wrong address or your trying to go down a rabit hole. Well whatever it is you have ended up hear so you have three choices. Go back to the page you were just on, go to the home page or just stay here. Which one will it be?<br/>
+<button class="bigbtn" onclick="history.back()">Take me back</button>
+<button class="bigbtn" onclick="window.location.assign('https://hazonline.co.uk')">Home please</button>
+<button class="bigbtn" onclick="alert('Really?')">I'll stay</button>
+
+
+
+
+</body>
+</html>
